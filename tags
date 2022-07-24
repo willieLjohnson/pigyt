@@ -4,15 +4,20 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+GitRepository	libpigyt.py	/^class GitRepository(object):$/;"	c
+__init	libpigyt.py	/^    def __init$/;"	m	class:GitRepository	file:
 argparse	libpigyt.py	/^import argparse$/;"	i
 argparser	libpigyt.py	/^argparser = argparse.ArgumentParser(description="Content Tracker")$/;"	v
 argsubparsers	libpigyt.py	/^argsubparsers = argparser.add_subparsers(title="Commands", dest="command")$/;"	v
 collections	libpigyt.py	/^import collections$/;"	i
+conf	libpigyt.py	/^    conf = None$/;"	v	class:GitRepository
 configparser	libpigyt.py	/^import configparser$/;"	i
+gitdir	libpigyt.py	/^    gitdir = None$/;"	v	class:GitRepository
 hashlib	libpigyt.py	/^import hashlib$/;"	i
 libpigyt	pigyt.py	/^import libpigyt$/;"	i
 main	libpigyt.py	/^def main(argv=sys.argv[1:]):$/;"	f
 os	libpigyt.py	/^import os$/;"	i
 re	libpigyt.py	/^import re$/;"	i
 sys	libpigyt.py	/^import sys$/;"	i
+worktree	libpigyt.py	/^    worktree = None$/;"	v	class:GitRepository
 zlib	libpigyt.py	/^import zlib$/;"	i
